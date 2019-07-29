@@ -1,0 +1,8 @@
+{
+  "name": "akagire",
+  "version": "1.0.0",
+  "scripts": {
+    "serve": "export GOOGLE_APPLICATION_CREDENTIALS='./serviceAccountKeys/appEngineDefaultServiceAccount.json' && cd functions/ && npm run build && cd ../ && firebase serve"
+  },
+  "license": "MIT"
+}
